@@ -71,4 +71,8 @@ private
   def line_number_for(notification)
     notification.example.metadata[:line_number]
   end
+
+  def owner_for(notification)
+    notification.example.metadata[:owner]
+  end
 end

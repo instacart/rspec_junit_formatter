@@ -55,4 +55,8 @@ private
   def line_number_for(example)
     example.metadata[:line_number]
   end
+
+  def owner_for(example)
+    example.metadata[:owner]
+  end
 end
